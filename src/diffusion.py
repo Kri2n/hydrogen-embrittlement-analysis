@@ -10,7 +10,7 @@ R = 8.314
 # TODO: check these against a cited paper or textbook and add the reference here.
 D0_EXAMPLE = 7.23e-8   # m^2/s   (pre-exponential factor)
 Q_EXAMPLE = 5.69e3     # J/mol   (activation energy)
-
+#references values from [1] K. Kiuchi and R. B. McLellan, “The solubility and diffusivity of hydrogen in well-annealed and deformed iron,” Acta Metallurgica, vol. 31, no. 7, pp. 961–984, Jul. 1983, doi: 10.1016/0001-6160(83)90192-X.
 
 def arrhenius_diffusivity(D0, Q, T):
     """Diffusion coefficient (m^2/s) at temperature T (kelvin).
